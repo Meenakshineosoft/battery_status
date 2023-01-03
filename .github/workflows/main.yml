@@ -1,7 +1,7 @@
 on:
   push:
     tags:
-      - v1.2
+      - v*
 name: Continous Delivery Release apk
 jobs:
   build:
